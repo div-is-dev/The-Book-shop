@@ -1,0 +1,19 @@
+{
+  "name": "book-shop",
+  "version": "1.0.0",
+  "description": "A place where readers meets books.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Divyanshu Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "jsonwebtoken": "^9.0.3",
+    "nodemon": "^3.1.11"
+  }
+}
